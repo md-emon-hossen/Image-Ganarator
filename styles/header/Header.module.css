@@ -1,0 +1,53 @@
+.headerWrp {
+    background: transparent;
+    height: 65px;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.logoWrp {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.signInWrp {
+    display: flex;
+    align-items: center;
+}
+
+.navWrp {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-right: 30px;
+}
+
+
+
+
+.singnBtn {
+    background: var(--btn);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}

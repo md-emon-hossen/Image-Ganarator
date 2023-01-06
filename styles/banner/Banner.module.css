@@ -1,0 +1,21 @@
+.bannerWrp {}
+
+.textWrp {
+    width: 70%;
+    margin: auto;
+}
+
+.textWrp>h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    background-image: linear-gradient(to right, #e6fa72, #64ff97 30%, #62ff93 77%, #c1ff64);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textWrp>p {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
